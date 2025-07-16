@@ -1,0 +1,67 @@
+# .gitignore for NinjaTrader 8 Strategy Development
+
+# Build artifacts
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+
+# Compiled strategies (auto-generated)
+compiled/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.sln.docstates
+
+# ReSharper
+_ReSharper*/
+*.resharper
+*.dotCover
+
+# NCrunch
+*.ncrunch*
+.*crunch*.local.xml
+
+# NinjaTrader specific
+*.log
+trace/
+*.backup
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+*.swp
+*.swo
+*~
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+
+# Package files
+*.nupkg
+*.snupkg
+
+# Local configuration
+appsettings.local.json
+*.local.config
+
+# Documentation build
+_site/
+docs/_build/
